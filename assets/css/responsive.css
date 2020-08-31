@@ -1,0 +1,26 @@
+@media only screen and (max-width: 1024px) {
+  .container {
+    padding: 0 20px; }
+
+  #logo {
+    padding: 0 20px; } }
+@media only screen and (max-width: 768px) {
+  #logo {
+    float: none;
+    width: auto;
+    text-align: center; }
+
+  h2 {
+    font-size: 18px;
+    float: none;
+    width: auto; }
+
+  .github-button, .docs-button {
+    width: 100%;
+    margin: 0 0 20px 0; } }
+@media only screen and (max-width: 480px) {
+  .screenshot, .sublime, .buttons, .tips {
+    width: 100%; }
+
+  .credits li {
+    width: 50%; } }

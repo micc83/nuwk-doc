@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+      
+  <link rel='stylesheet' href='assets/css/normalize.css'>
+  <link rel='stylesheet' href='assets/css/style.css'>
+  <link rel='stylesheet' href='assets/font-awesome/css/font-awesome.min.css'>
+  <link rel='stylesheet' href='assets/css/responsive.css'>
+  
+  <link href="assets/favicon.ico" rel="shortcut icon">
+  <link href="assets/apple-touch-icon.png" rel="apple-touch-icon">
+  
+  <title>Nuwk! Simple Mac App Builder based on node-webkit</title>
+  <meta name="description" content="Nuwk! makes it easy to create Mac Applications based on node-webkit, simplifying testing and building procedures. It takes care of creating the executable, attaching the app icon and configuring the plist file accordingly.">
+
+</head>
+
+<body>
+
+  <header>
+    <div class="container">
+      <div id="logo"><img src="assets/img/logo.png"></div>
+      <h1>Nuwk! Mac App Builder</h1>
+      <h2>A very (very) simple Mac App to build HTML5 &amp; Js node powered Mac Apps</h2>
+    </div>
+  </header>
+
+<div class="container">
+
+  <div class="message">
+    <i class="fa fa-info-circle"></i> <p>At the moment Nuwk! is very alpha. The code is written poorly (Unfortunately I have very little free time), however I believe it can be an interesting tool for those who have just begun to develop on node-webkit. So if you're going to use it in production do so at your own risk.</p>
+  </div>
+
+  <section class="cf">
+  	<div class="screenshot">
+  	  <img src="assets/img/screen.jpg">
+  	</div>
+    <div class="buttons">
+      <a class="download-button" href="http://bit.ly/P3wKqg" target="_blank">
+        <i class="fa fa-download"></i>
+        Download Nuwk!
+      </a>
+      <a class="github-button" href="https://github.com/micc83/Nuwk">
+        <i class="fa fa-github"></i>
+        Github
+      </a>
+      <a class="docs-button" href="https://github.com/rogerwang/node-webkit/wiki">
+        <i class="fa fa-code"></i>
+        node-webkit Docs
+      </a>
+      <div class="content">
+        <p><strong>Nuwk!</strong> makes it easy to create Mac Applications based on node-webkit, simplifying testing and building procedures. It takes care of creating the executable, attaching the app icon and configuring the plist file accordingly.</p>
+        <p class="lead">Your HTML5/Node powered Mac App in a few click!</p>
+      </div>
+    </div>
+  </section>
+  <aside class="cf">
+    <div class="sublime">
+      <img src="assets/img/sublime.jpg">
+    </div>
+    <div class="tips">
+      <div class="content">
+        <p class="lead">Customize your development environment</p>
+        <p>Customize your nuwk! experience editing <code>Nuwk!.app/Contents/Resources/app.nw/js/model.js</code> accordingly to you needs.</p>
+        <p>You can set a different code editor as well as changing the App folder in order to use a preprocessor (<i class="fa fa-heart"></i> Hammer).</p>
+      </div>
+    </div>
+  </aside>
+  <aside class="cf content">
+    <p class="lead">Nuwk! is powered by:</p>
+    <ul class="credits cf">
+      <li><a href="https://github.com/rogerwang/node-webkit"><img src="assets/img/node-webkit.png"></a></li>
+      <li><a href="http://nodejs.org/"><img src="assets/img/node.png"></a></li>
+      <li><a href="http://www.chromium.org/"><img src="assets/img/chromium.png"></a></li>
+      <li><a href="http://jquery.com/"><img src="assets/img/jquery.png"></a></li>
+    </ul>
+    <p>But also: <a href="http://fontawesome.io/">fontawesome</a>, <a href="https://github.com/AvianFlu/ncp">ncp</a>, <a href="https://github.com/isaacs/rimraf">rimraf</a>, <a href="http://github.com/jsantell/node-zip-dir">zip-dir</a>, <a href="http://picons.me/">picons.me</a>, <a href="http://hammerformac.com/">Hammer</a>, <a href="http://www.sublimetext.com/">Sublime Text 2</a> (If i've forgot anyone just <a href="mailto:micc83@gmail.com">email me</a>!).</p>
+  </aside>
+</div>  
+	
+	<footer>Released by <a href="http://codeb.it">me</a> under MIT License (Do whatever you want with it!)</footer>
+
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    var pluginUrl = '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+    _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+    _gaq.push(['_setAccount', 'UA-34218175-1']);
+    _gaq.push(['_trackPageview']);
+  
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+  
+</body>
+
+</html>

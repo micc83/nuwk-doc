@@ -1,0 +1,36 @@
+/* Reset CSS by Eric Meyer (customized) */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, h7, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, input, textarea { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; outline: none; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+body { line-height: 1; -webkit-backface-visibility: hidden; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+textarea { resize: vertical; }
+
+/* Basic typo */
+strong { font-weight: 800; }
+em { font-style: oblique; }
+small { font-size: 80%; }
+
+/* Images that fit and align */
+img { border: 0; max-width: 100%; vertical-align: middle; height: auto; }
+img.alignright { margin:0 0 1em 1em; }
+img.alignleft { margin:0 1em 1em 0; }
+img.aligncenter { display: block; margin: 1em auto; }
+
+/* Float */
+.alignright { float:right; }
+.alignleft { float:left; }
+.aligncenter { display: block; margin-left: auto; margin-right: auto; }
+
+/* Cursor */
+a[href], input[type='submit'], input[type='image'], button, .pointer { cursor: pointer; }
+
+/* Clearfix hack */
+.cf:before, .cf:after { content:""; display:table; }
+.cf:after { clear:both; }
+.cf { zoom:1; }
+
+/* Font family */
+html, button, input, select, textarea { font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
